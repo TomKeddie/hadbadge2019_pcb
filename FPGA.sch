@@ -334,7 +334,7 @@ Wire Wire Line
 	5600 9750 5600 10050
 Connection ~ 5600 9750
 $Comp
-L Connector:TestPoint TP11
+L hadbadge2019-rescue:TestPoint-Connector TP11
 U 1 1 5C610EE2
 P 6350 9650
 F 0 "TP11" V 6400 10050 50  0000 C CNN
@@ -429,7 +429,7 @@ VBAT_ALWON
 Text GLabel 6000 1450 0    50   Input ~ 0
 VIO
 $Comp
-L Oscillator:XO91 X1
+L hadbadge2019-rescue:XO91-Oscillator X1
 U 1 1 5C790E80
 P 6100 7300
 F 0 "X1" H 6400 7550 50  0000 L CNN
@@ -918,7 +918,7 @@ USB_PU
 Text GLabel 5050 4350 0    50   Input ~ 0
 USB_VBUSDET
 $Comp
-L Lyontek_psram:LY68L6400SLIT U2
+L hadbadge2019-rescue:LY68L6400SLIT-Lyontek_psram U2
 U 1 1 5C736125
 P 10000 1750
 F 0 "U2" H 9800 2100 50  0000 C CNN
@@ -930,7 +930,7 @@ F 4 "Lyontek" H 10000 1750 50  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Lyontek_psram:LY68L6400SLIT U3
+L hadbadge2019-rescue:LY68L6400SLIT-Lyontek_psram U3
 U 1 1 5C736206
 P 12350 1750
 F 0 "U3" H 12100 2100 50  0000 C CNN
@@ -1363,7 +1363,7 @@ FLASH_MOSI
 Text GLabel 4000 9150 2    50   Input ~ 0
 FLASH_MISO
 $Comp
-L Memory_EEPROM:25LCxxx U4
+L hadbadge2019-rescue:25LCxxx-Memory_EEPROM U4
 U 1 1 5C60DD62
 P 3600 9050
 F 0 "U4" H 3250 9450 50  0000 C CNN
@@ -1453,7 +1453,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 8050 7500 8050
 $Comp
-L Connector:TestPoint TP3
+L hadbadge2019-rescue:TestPoint-Connector TP3
 U 1 1 5D0D490B
 P 7150 3750
 F 0 "TP3" V 7150 4050 50  0000 C CNN
@@ -1464,7 +1464,7 @@ F 3 "~" H 7350 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP4
+L hadbadge2019-rescue:TestPoint-Connector TP4
 U 1 1 5D0F5887
 P 7150 3950
 F 0 "TP4" V 7150 4250 50  0000 C CNN
@@ -1475,7 +1475,7 @@ F 3 "~" H 7350 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP2
+L hadbadge2019-rescue:TestPoint-Connector TP2
 U 1 1 5D0FC9A7
 P 6950 2950
 F 0 "TP2" V 6950 3250 50  0000 C CNN
@@ -1486,7 +1486,7 @@ F 3 "~" H 7150 2950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP1
+L hadbadge2019-rescue:TestPoint-Connector TP1
 U 1 1 5D101883
 P 7150 3350
 F 0 "TP1" V 7150 3650 50  0000 C CNN
@@ -1497,7 +1497,7 @@ F 3 "~" H 7350 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 74xGxx:74LVC1G3157 U8
+L hadbadge2019-rescue:74LVC1G3157-74xGxx U8
 U 1 1 5D1561B3
 P 2100 7800
 F 0 "U8" H 1750 8300 50  0000 C CNN
@@ -1508,7 +1508,7 @@ F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 2100 7800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xGxx:74LVC1G175 U11
+L hadbadge2019-rescue:74LVC1G175-74xGxx U11
 U 1 1 5D157A6C
 P 1450 8100
 F 0 "U11" H 1450 8417 50  0000 C CNN
@@ -1785,7 +1785,7 @@ Wire Wire Line
 	6750 2050 6750 1850
 Connection ~ 6750 1850
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J1
+L hadbadge2019-rescue:Conn_02x05_Odd_Even-Connector_Generic J1
 U 1 1 5DA8142F
 P 6200 1550
 F 0 "J1" H 6250 1967 50  0000 C CNN
@@ -1812,7 +1812,7 @@ DBGTX
 Text GLabel 7500 9050 0    50   Input ~ 0
 DBGRX
 $Comp
-L Connector:TestPoint TP5
+L hadbadge2019-rescue:TestPoint-Connector TP5
 U 1 1 5DBBBFEA
 P 7150 3550
 F 0 "TP5" V 7150 3850 50  0000 C CNN
@@ -1823,7 +1823,7 @@ F 3 "~" H 7350 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP6
+L hadbadge2019-rescue:TestPoint-Connector TP6
 U 1 1 5DBE8CB5
 P 9450 6050
 F 0 "TP6" V 9450 6350 50  0000 C CNN
@@ -2127,7 +2127,7 @@ Wire Wire Line
 Text Notes 13500 2400 0    50   ~ 0
 Note: All LEDs indeed are RGB LEDs, but normally, \nonly CATA is powered so all LEDs will only light up \nin whatever color is connected to that. Good luck \ngetting full RGB!
 $Comp
-L jeroens_components:AO3400 Q3
+L hadbadge2019-rescue:AO3400-jeroens_components Q3
 U 1 1 5D8C68B4
 P 13400 9250
 F 0 "Q3" H 13506 9296 50  0000 L CNN
@@ -2167,7 +2167,7 @@ Connection ~ 13100 9250
 Text GLabel 13400 9050 1    50   Input ~ 0
 CATA
 $Comp
-L jeroens_components:AO3400 Q4
+L hadbadge2019-rescue:AO3400-jeroens_components Q4
 U 1 1 5D926D6D
 P 14550 9250
 F 0 "Q4" H 14656 9296 50  0000 L CNN
@@ -2218,7 +2218,7 @@ Connection ~ 14250 9250
 Text GLabel 14550 9050 1    50   Input ~ 0
 CATB
 $Comp
-L jeroens_components:AO3400 Q5
+L hadbadge2019-rescue:AO3400-jeroens_components Q5
 U 1 1 5D92F565
 P 15650 9250
 F 0 "Q5" H 15756 9296 50  0000 L CNN
@@ -2396,7 +2396,7 @@ F 3 "~" H 14650 7750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP7
+L hadbadge2019-rescue:TestPoint-Connector TP7
 U 1 1 5D74ACE2
 P 1100 4750
 F 0 "TP7" V 1100 5000 50  0000 C CNN
@@ -2447,4 +2447,12 @@ Text GLabel 1100 5550 0    50   Input ~ 0
 GENIO_25
 Text GLabel 1100 6050 0    50   Input ~ 0
 GENIO_29
+Text Label 7100 1850 0    50   ~ 0
+TMS
+Text Label 7100 1750 0    50   ~ 0
+TDI
+Text Label 7100 1650 0    50   ~ 0
+TCK
+Text Label 6950 1550 0    50   ~ 0
+TDO
 $EndSCHEMATC

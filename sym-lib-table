@@ -11,4 +11,5 @@
   (lib (name FC-B1010RGBT-HG)(type Legacy)(uri ${KIPRJMOD}/lib/FC-B1010RGBT-HG.lib)(options "")(descr ""))
   (lib (name art)(type Legacy)(uri ${KIPRJMOD}/lib/art.lib)(options "")(descr ""))
   (lib (name no_soldermask_square)(type Legacy)(uri ${KIPRJMOD}/lib/no_soldermask_square.lib)(options "")(descr ""))
+  (lib (name hadbadge2019-rescue)(type Legacy)(uri ${KIPRJMOD}/hadbadge2019-rescue.lib)(options "")(descr ""))
 )

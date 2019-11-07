@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L M3406:M3406 U5
+L hadbadge2019-rescue:M3406-M3406 U5
 U 1 1 5C5EF11E
 P 2900 2000
 F 0 "U5" H 2900 2515 50  0000 C CNN
@@ -166,7 +166,7 @@ $EndComp
 Text GLabel 4800 1800 2    50   Input ~ 0
 1V1
 $Comp
-L xc6206:XC6206P25 U6
+L hadbadge2019-rescue:XC6206P25-xc6206 U6
 U 1 1 5C5FCB13
 P 2900 3250
 F 0 "U6" H 2900 3665 50  0000 C CNN
@@ -501,7 +501,7 @@ VBAT
 Wire Wire Line
 	6450 1950 6300 1950
 $Comp
-L spdt_sh:SW_SPDT_shielded SW9
+L hadbadge2019-rescue:SW_SPDT_shielded-spdt_sh SW9
 U 1 1 5CA14672
 P 6700 1950
 F 0 "SW9" H 6700 2265 50  0000 C CNN
@@ -987,7 +987,7 @@ F 4 "https://item.taobao.com/item.htm?spm=a1z09.2.0.0.67002e8d5Si8Ic&id=54359091
 	1    0    0    -1  
 $EndComp
 $Comp
-L jeroens_components:AO3401 Q2
+L hadbadge2019-rescue:AO3401-jeroens_components Q2
 U 1 1 5D6A27A7
 P 1350 2200
 F 0 "Q2" H 1556 2154 50  0000 L CNN
@@ -1026,7 +1026,7 @@ F 3 "" H 7450 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H1
+L hadbadge2019-rescue:MountingHole-Mechanical H1
 U 1 1 5DBAD1B3
 P 6350 5100
 F 0 "H1" H 6450 5146 50  0000 L CNN
@@ -1037,7 +1037,7 @@ F 3 "~" H 6350 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID1
+L hadbadge2019-rescue:Fiducial-Mechanical FID1
 U 1 1 5D8D7810
 P 6400 5650
 F 0 "FID1" H 6485 5696 50  0000 L CNN
@@ -1048,7 +1048,7 @@ F 3 "~" H 6400 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID2
+L hadbadge2019-rescue:Fiducial-Mechanical FID2
 U 1 1 5D8D81BD
 P 7000 5650
 F 0 "FID2" H 7085 5696 50  0000 L CNN
@@ -1059,7 +1059,7 @@ F 3 "~" H 7000 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID3
+L hadbadge2019-rescue:Fiducial-Mechanical FID3
 U 1 1 5D8E19E9
 P 6400 6000
 F 0 "FID3" H 6485 6046 50  0000 L CNN
@@ -1070,7 +1070,7 @@ F 3 "~" H 6400 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID4
+L hadbadge2019-rescue:Fiducial-Mechanical FID4
 U 1 1 5D8E19EF
 P 7000 6000
 F 0 "FID4" H 7085 6046 50  0000 L CNN
@@ -1081,7 +1081,7 @@ F 3 "~" H 7000 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID5
+L hadbadge2019-rescue:Fiducial-Mechanical FID5
 U 1 1 5D8E7160
 P 6400 6350
 F 0 "FID5" H 6485 6396 50  0000 L CNN
@@ -1092,7 +1092,7 @@ F 3 "~" H 6400 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID6
+L hadbadge2019-rescue:Fiducial-Mechanical FID6
 U 1 1 5D8E7166
 P 7000 6350
 F 0 "FID6" H 7085 6396 50  0000 L CNN

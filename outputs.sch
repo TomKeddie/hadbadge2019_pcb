@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:USB_B_Micro J2
+L hadbadge2019-rescue:USB_B_Micro-Connector J2
 U 1 1 5C642886
 P 1250 1900
 F 0 "J2" H 1305 2367 50  0000 C CNN
@@ -42,7 +42,7 @@ Wire Wire Line
 	1200 2300 1250 2300
 Connection ~ 1200 2300
 $Comp
-L Connector:HDMI_A_1.4 J4
+L hadbadge2019-rescue:HDMI_A_1.4-Connector J4
 U 1 1 5C642C42
 P 9850 2400
 F 0 "J4" H 10280 2446 50  0000 L CNN
@@ -270,7 +270,7 @@ Wire Wire Line
 Wire Wire Line
 	8650 3100 8500 3100
 $Comp
-L Connector:TestPoint TP13
+L hadbadge2019-rescue:TestPoint-Connector TP13
 U 1 1 5C6809BB
 P 8500 2500
 F 0 "TP13" V 8550 2750 50  0000 C CNN
@@ -281,7 +281,7 @@ F 3 "~" H 8700 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP14
+L hadbadge2019-rescue:TestPoint-Connector TP14
 U 1 1 5C680A80
 P 8500 2700
 F 0 "TP14" V 8550 2950 50  0000 C CNN
@@ -292,7 +292,7 @@ F 3 "~" H 8700 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP15
+L hadbadge2019-rescue:TestPoint-Connector TP15
 U 1 1 5C680B1B
 P 8500 2800
 F 0 "TP15" V 8550 3050 50  0000 C CNN
@@ -342,7 +342,7 @@ F 3 "~" H 3100 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP12
+L hadbadge2019-rescue:TestPoint-Connector TP12
 U 1 1 5C684690
 P 2300 2150
 F 0 "TP12" V 2400 2150 50  0000 L CNN
@@ -474,7 +474,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 1200 3300 1200
 $Comp
-L Connector_Generic_MountingPin:Conn_2Rows-45Pins_MountingPin J5
+L hadbadge2019-rescue:Conn_2Rows-45Pins_MountingPin-Connector_Generic_MountingPin J5
 U 1 1 5C691D2E
 P 2450 4500
 F 0 "J5" H 2500 6000 50  0000 C CNN
@@ -600,7 +600,7 @@ Text GLabel 2050 3700 0    50   Input ~ 0
 Wire Wire Line
 	2050 3700 2250 3700
 $Comp
-L jeroens_components:AO3400 Q1
+L hadbadge2019-rescue:AO3400-jeroens_components Q1
 U 1 1 5C6ADED4
 P 3850 3500
 F 0 "Q1" H 3650 3750 50  0000 L CNN
@@ -883,7 +883,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 4000 2750 4000
 $Comp
-L Switch:SW_Push SW1
+L hadbadge2019-rescue:SW_Push-Switch SW1
 U 1 1 5C6B5595
 P 9350 4250
 F 0 "SW1" H 9850 4300 50  0000 C CNN
@@ -896,7 +896,7 @@ $EndComp
 Text GLabel 9150 4250 0    50   Input ~ 0
 BTN_UP
 $Comp
-L Switch:SW_Push SW2
+L hadbadge2019-rescue:SW_Push-Switch SW2
 U 1 1 5C6BC3D6
 P 9350 4450
 F 0 "SW2" H 9850 4500 50  0000 C CNN
@@ -909,7 +909,7 @@ $EndComp
 Text GLabel 9150 4450 0    50   Input ~ 0
 BTN_DOWN
 $Comp
-L Switch:SW_Push SW3
+L hadbadge2019-rescue:SW_Push-Switch SW3
 U 1 1 5C6C95C8
 P 9350 4650
 F 0 "SW3" H 9850 4700 50  0000 C CNN
@@ -922,7 +922,7 @@ $EndComp
 Text GLabel 9150 4650 0    50   Input ~ 0
 BTN_LEFT
 $Comp
-L Switch:SW_Push SW4
+L hadbadge2019-rescue:SW_Push-Switch SW4
 U 1 1 5C6D0730
 P 9350 4850
 F 0 "SW4" H 9850 4900 50  0000 C CNN
@@ -935,7 +935,7 @@ $EndComp
 Text GLabel 9150 4850 0    50   Input ~ 0
 BTN_RIGHT
 $Comp
-L Switch:SW_Push SW5
+L hadbadge2019-rescue:SW_Push-Switch SW5
 U 1 1 5C6D701C
 P 9350 5050
 F 0 "SW5" H 9850 5100 50  0000 C CNN
@@ -948,7 +948,7 @@ $EndComp
 Text GLabel 9150 5050 0    50   Input ~ 0
 BTN_A
 $Comp
-L Switch:SW_Push SW6
+L hadbadge2019-rescue:SW_Push-Switch SW6
 U 1 1 5C6DD90C
 P 9350 5250
 F 0 "SW6" H 9850 5300 50  0000 C CNN
@@ -961,7 +961,7 @@ $EndComp
 Text GLabel 9150 5250 0    50   Input ~ 0
 BTN_B
 $Comp
-L Switch:SW_Push SW7
+L hadbadge2019-rescue:SW_Push-Switch SW7
 U 1 1 5C6E41FE
 P 9350 5450
 F 0 "SW7" H 9850 5500 50  0000 C CNN
@@ -974,7 +974,7 @@ $EndComp
 Text GLabel 9150 5450 0    50   Input ~ 0
 BTN_SELECT
 $Comp
-L Switch:SW_Push SW8
+L hadbadge2019-rescue:SW_Push-Switch SW8
 U 1 1 5C6EAAF2
 P 9350 5650
 F 0 "SW8" H 9850 5700 50  0000 C CNN
@@ -1255,7 +1255,7 @@ Wire Wire Line
 Text GLabel 4250 2050 0    50   Input ~ 0
 SNDOUT
 $Comp
-L Connector_Generic:Conn_01x02 J3
+L hadbadge2019-rescue:Conn_01x02-Connector_Generic J3
 U 1 1 5C78AF2B
 P 6650 1900
 F 0 "J3" H 6730 1892 50  0000 L CNN
@@ -1301,7 +1301,7 @@ Connection ~ 9850 1300
 Text Notes 2000 6250 0    50   ~ 0
 [38,39,40]=[im2,im1,im0]\n[0,0,0]=DBI type-B 18-bit
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J7
+L hadbadge2019-rescue:Conn_02x03_Odd_Even-Connector_Generic J7
 U 1 1 5CEDF19E
 P 4000 6700
 F 0 "J7" H 4050 7017 50  0000 C CNN
@@ -1312,7 +1312,7 @@ F 3 "~" H 4000 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J8
+L hadbadge2019-rescue:Conn_02x03_Odd_Even-Connector_Generic J8
 U 1 1 5CEEDF6E
 P 5800 6700
 F 0 "J8" H 5850 7017 50  0000 C CNN
@@ -1323,7 +1323,7 @@ F 3 "~" H 5800 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J10
+L hadbadge2019-rescue:Conn_01x02_Male-Connector J10
 U 1 1 5CEEDF74
 P 5950 7100
 F 0 "J10" H 6058 7281 50  0000 C CNN
@@ -1334,7 +1334,7 @@ F 3 "~" H 5950 7100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even J6
+L hadbadge2019-rescue:Conn_02x20_Odd_Even-Connector_Generic J6
 U 1 1 5D11B435
 P 5250 4900
 F 0 "J6" H 5300 6100 50  0000 C CNN
@@ -1481,7 +1481,7 @@ SAO1_GPIO1
 Text GLabel 6100 6800 2    50   Input ~ 0
 SAO2_GPIO1
 $Comp
-L Connector:Conn_01x02_Male J9
+L hadbadge2019-rescue:Conn_01x02_Male-Connector J9
 U 1 1 5CEECB55
 P 4150 7050
 F 0 "J9" H 4258 7231 50  0000 C CNN
@@ -1534,7 +1534,7 @@ F 3 "" H 6700 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x06_Odd_Even J11
+L hadbadge2019-rescue:Conn_02x06_Odd_Even-Connector_Generic J11
 U 1 1 5D05A986
 P 7500 3900
 F 0 "J11" H 7550 4317 50  0000 C CNN
@@ -1726,7 +1726,7 @@ F 3 "~" H 6700 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x04_Female J12
+L hadbadge2019-rescue:Conn_01x04_Female-Connector J12
 U 1 1 5D5BB0B7
 P 1800 1250
 F 0 "J12" V 1738 962 50  0000 R CNN
